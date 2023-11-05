@@ -1,7 +1,7 @@
 {
-  "name": "theme-template",
+  "name": "Flashcord Zoom",
   "version": "1.0.0",
-  "description": "A theme template",
+  "description": "Flashcord's Zooming QoL Feature, but without Flashcord.",
   "engines": {
     "node": ">=18.0.0",
     "pnpm": ">=8.0.0"

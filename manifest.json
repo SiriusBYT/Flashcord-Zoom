@@ -1,20 +1,20 @@
 {
-  "id": "dev.replugged.ThemeTemplate",
-  "name": "Theme Template",
-  "description": "A theme template",
+  "id": "com.sirio-network.flashcord-zoom",
+  "name": "Flashcord Zoom",
+  "description": "Flashcord's Zooming QoL Feature, but without Flashcord.",
   "author": {
-    "name": "replugged",
-    "discordID": "1000992611840049192",
-    "github": "replugged-org"
+		"name": "SiriusBYT",
+		"discordID": "311057290562371586",
+		"github": "SiriusBYT"
   },
   "version": "1.0.0",
   "updater": {
     "type": "github",
-    "id": "replugged-org/theme-template"
+    "id": "SiriusBYT/Flashcord-Zoom"
   },
   "license": "MIT",
   "type": "replugged-theme",
   "main": "src/main.css",
-  "source": "https://github.com/replugged-org/theme-template",
+  "source": "https://github.com/SiriusBYT/Flashcord-Zoom",
   "image": ["https://i.imgur.com/14CNs3a.png?CHANGE-THIS-URL"]
 }

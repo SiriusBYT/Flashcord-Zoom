@@ -1,11 +1,6 @@
-# Replugged theme template
+# Flashcord's Zooming QoL Feature
+Available now for everyone. Requires [Magnificent by Socketlike](https://github.com/Socketlike/replugged-plugins/tree/main/plugins/Magnificent) for the best experience.
 
-See the [theme development guide](https://guide.replugged.dev/docs/themes/getting-started) for more
-information on using this template.
+![](showcase.gif)
 
-# License
-
-The [theme template](https://github.com/replugged-org/theme-template) is licensed under the
-[MIT](https://opensource.org/license/mit/) license. However, addons using this template are not
-necessarily licensed under MIT. Developers are encouraged to add a license file to their repository,
-but if none exists, the repository should be considered as unlicensed.
+![<img src="https://sirio-network.com/flashcord/ressources/store/replugged.png" width="512">](https://replugged.dev/install?identifier=SiriusBYT/Flashcord-Zoom&source=github)
