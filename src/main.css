@@ -51,4 +51,9 @@
   [class*="modalCarouselWrapper_"] button {
       margin: 0;
   }
+
+  /* brainfart, ty olaf */
+  [class^="focusLock_"] ::-webkit-scrollbar {
+    display: none;
+  }
 }
