@@ -12,9 +12,9 @@
     "type": "github",
     "id": "SiriusBYT/Flashcord-Zoom"
   },
-  "license": "MIT",
+  "license": "CC BY-NC-ND 4.0",
   "type": "replugged-theme",
   "main": "src/main.css",
   "source": "https://github.com/SiriusBYT/Flashcord-Zoom",
-  "image": ["https://i.imgur.com/14CNs3a.png?CHANGE-THIS-URL"]
+  "image": ["https://cdn.discordapp.com/attachments/842111435399888927/1170739337021902969/ezgif.com-optimize.gif?ex=655a22f9&is=6547adf9&hm=66bb3f370816d953ccec71d3bd1994a8f0c4ee6c05dfd8d1847d4a3e85836d6b&"]
 }
