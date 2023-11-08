@@ -1,13 +1,13 @@
 {
   "id": "com.sirio-network.flashcord-zoom",
   "name": "Flashcord Zoom",
-  "description": "Flashcord's Zooming QoL Feature, but without Flashcord.",
+  "description": "Flashcord's Zooming QoL Feature, but without Flashcord. Hover on a clicked image to zoom on them, use mouse wheel to scroll down the image. Requires Magnificent to prevent the images from being insanely blurry.",
   "author": {
 		"name": "SiriusBYT",
 		"discordID": "311057290562371586",
 		"github": "SiriusBYT"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "updater": {
     "type": "github",
     "id": "SiriusBYT/Flashcord-Zoom"
