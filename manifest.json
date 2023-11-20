@@ -7,10 +7,10 @@
 		"discordID": "311057290562371586",
 		"github": "SiriusBYT"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "updater": {
-    "type": "github",
-    "id": "SiriusBYT/Flashcord-Zoom"
+    "type": "store",
+    "id": "com.sirio-network.flashcord-zoom"
   },
   "license": "CC BY-NC-ND 4.0",
   "type": "replugged-theme",
