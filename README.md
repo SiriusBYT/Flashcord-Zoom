@@ -6,4 +6,4 @@ Hover on a clicked image to zoom on them, use mouse wheel to scroll down the ima
 ### Preview (GIF May take a while to load):
 ![](showcase.gif)
 
-[<img src="https://sirio-network.com/flashcord/ressources/store/replugged.png">](https://replugged.dev/install?identifier=SiriusBYT/Flashcord-Zoom&source=github)
+[<img src="https://sirio-network.com/flashcord/ressources/store/replugged.png">](https://replugged.dev/install?identifier=com.sirio-network.flashcord-zoom)
