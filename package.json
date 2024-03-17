@@ -3,7 +3,7 @@
   "version": "1.0.3",
   "description": "Flashcord's Zooming QoL Feature, but without Flashcord. Hover on a clicked image to zoom on them, use mouse wheel to scroll down the image. Requires Magnificent to prevent the images from being insanely blurry.",
   "engines": {
-    "node": ">=18.0.0",
+    "node": ">=20.0.0",
     "pnpm": ">=8.0.0"
   },
   "scripts": {
