@@ -1,59 +1,27 @@
-/* IMPORTED FROM FLASHCORD BETA bSID-2311XX DEV-NOV 231105 */
+/* IMPORTED FROM FLASHCORD BETA bSID-DEV_240423*/
 
-/* Imagivid Zoom Core */
 [class^="layer_"]:has([class^="focusLock_"] [class*="downloadLink_"]) {
-  container-name: var(--FlashCore-ImagividZoom, FC-ImagividZoom);
-  container-type: inline-size;
-  contain: paint;
-}
+    container-name: var(--Flashcord-Module_Image-Zoom, FCM-Image_Zoom);
+    container-type: inline-size;
+} @container FCM-Image_Zoom (min-width: 0) {
+    [class^="focusLock_"] [class^="imageWrapper_"]:hover {  width: 90vw !important; }
+    [class^="focusLock_"] [class^="imageWrapper_"] { 
+        transition-property: width, height; transition-duration: var(--Flashcord-Transition_Slow) !important;
+        height: auto !important;
+    } [class^="focusLock_"] [class^="imageWrapper_"] [class^="wrapper-"] {  width: auto !important; height: auto !important; }
+    [class^="focusLock_"] > div { 
+        display: flex; flex-direction: row; justify-content: center; align-items: flex-start;
+        overflow: scroll;
+    } [class^="carouselModal_"] { justify-content: flex-start !important; }
+    [class^="focusLock_"] img, [class^="focusLock_"] video, [class^="imageWrapper_"] [class^="wrapper"] {
+        width: 100% !important; height: 100% !important; max-width: 100% !important; max-height: 100% !important;
+        overflow: scroll; object-fit: contain;
+    } [class^="anchor_"] { display: none; }
+    [class*="modalCarouselWrapper_"] {
+        position: static; margin: auto;
+        -webkit-box-align: unset !important; align-items: unset !important;
+    } [class*="modalCarouselWrapper_"] button { margin: 0; }
 
-@container FC-ImagividZoom (min-width: 0px) {
-  [class^="focusLock_"] [class^="imageWrapper_"]:hover { 
-      width: 90vw !important;
-      /*will-change: width, height;*/
-  }
-  [class^="focusLock_"] [class^="imageWrapper_"] { 
-      height: auto !important;
-      transition-property: width, height;
-      transition-duration: var(--Flashcord-TransMult-Slow, 500ms) !important;
-  }
-  [class^="focusLock_"] [class^="imageWrapper_"] [class^="wrapper-"] { 
-      width: auto !important;
-      height: auto !important;
-  }
-  [class^="focusLock_"] > div { 
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      overflow: scroll;
-      flex-direction: row;
-  }
-  [class^="carouselModal-"] {
-      justify-content: flex-start !important;
-  }
-  [class^="focusLock_"] img, [class^="focusLock_"] video, [class^="imageWrapper_"] [class^="wrapper"] {
-      width: 100% !important;
-      height: 100% !important;
-      max-width: 100% !important;
-      max-height: 100% !important;
-      object-fit: contain;
-      overflow: scroll;
-  }
-  [class^="anchor_"] {
-      display: none;
-  }
-  [class*="modalCarouselWrapper_"] {
-      -webkit-box-align: unset !important;
-      align-items: unset !important;
-      margin: auto;
-      position: static;
-  }
-  [class*="modalCarouselWrapper_"] button {
-      margin: 0;
-  }
-
-  /* brainfart, ty olaf */
-  [class^="focusLock_"] ::-webkit-scrollbar {
-    display: none;
-  }
+      /* brainfart, ty olaf */
+    [class^="focusLock_"] ::-webkit-scrollbar { display: none; }
 }
