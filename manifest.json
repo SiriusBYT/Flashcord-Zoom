@@ -7,7 +7,7 @@
 		"discordID": "311057290562371586",
 		"github": "SiriusBYT"
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "updater": {
     "type": "store",
     "id": "com.sirio-network.flashcord-zoom"
@@ -16,5 +16,23 @@
   "type": "replugged-theme",
   "main": "src/main.css",
   "source": "https://github.com/SiriusBYT/Flashcord-Zoom",
-  "image": ["https://sirio-network.com/flashcord/ressources/store/Flashcord-Zoom.gif"]
+  "image": ["https://sirio-network.com/flashcord/ressources/store/Flashcord-Zoom.gif"],
+  "flashcord": {
+    "general_information": {
+      "contributors": "None",
+      "discord_link": "https://sirio-network.com/redirect/discord",
+      "license_year": "2023-2024",
+      "sndl_theme": "Light",
+      "embed_color": "#FF69FF",
+      "tags": [
+          "Specific Element"
+      ]
+    },
+    "internal_structure": {
+      "internal_name": "flashcord_zoom",
+      "image_store": "store-banner.gif",
+      "image_embed": "embed-banner.png",
+      "backup_files": false
+    }
+  }
 }

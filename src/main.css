@@ -3,25 +3,42 @@
 [class^="layer_"]:has([class^="focusLock_"] [class*="downloadLink_"]) {
     container-name: var(--Flashcord-Module_Image-Zoom, FCM-Image_Zoom);
     container-type: inline-size;
-} @container FCM-Image_Zoom (min-width: 0) {
-    [class^="focusLock_"] [class^="imageWrapper_"]:hover {  width: 90vw !important; }
+} 
+@container FCM-Image_Zoom (min-width: 0) {
+    /* Zooming via increase of width/height */
     [class^="focusLock_"] [class^="imageWrapper_"] { 
         transition-property: width, height; transition-duration: var(--Flashcord-Transition_Slow) !important;
         height: auto !important;
-    } [class^="focusLock_"] [class^="imageWrapper_"] [class^="wrapper-"] {  width: auto !important; height: auto !important; }
+    }
+    [class^="focusLock_"] [class^="imageWrapper_"]:hover { 
+        width: 90vw !important;
+    }
+    [class^="focusLock_"] [class^="imageWrapper_"] [class^="wrapper-"] { 
+        width: auto !important; height: auto !important; 
+    }
     [class^="focusLock_"] > div { 
         display: flex; flex-direction: row; justify-content: center; align-items: flex-start;
         overflow: scroll;
-    } [class^="carouselModal_"] { justify-content: flex-start !important; }
+    }
+    [class^="carouselModal_"] {
+        justify-content: flex-start !important;
+    }
+    /* Allowing the images/videos to get zoomed */
     [class^="focusLock_"] img, [class^="focusLock_"] video, [class^="imageWrapper_"] [class^="wrapper"] {
         width: 100% !important; height: 100% !important; max-width: 100% !important; max-height: 100% !important;
         overflow: scroll; object-fit: contain;
-    } [class^="anchor_"] { display: none; }
+    }
+    [class^="anchor_"] { 
+        display: none;
+    }
+
+    /* Multi-images bug fix */
     [class*="modalCarouselWrapper_"] {
         position: static; margin: auto;
         -webkit-box-align: unset !important; align-items: unset !important;
-    } [class*="modalCarouselWrapper_"] button { margin: 0; }
+    }
+    [class*="modalCarouselWrapper_"] button { margin: 0; }
 
-      /* brainfart, ty olaf */
+    /* brainfart, ty olaf, Flashcord normally has all scrollbars removed, so Flashcord Zoom had those which was very disgusting. */
     [class^="focusLock_"] ::-webkit-scrollbar { display: none; }
 }
